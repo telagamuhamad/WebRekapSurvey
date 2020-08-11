@@ -21,9 +21,9 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body style="background-image: url(<?php echo base_url('assets/image/bg.jpg')?>); background-size: 100% 100%">
 
-  <div class="container">
+<div class="container" style=" margin-top: 73px; ">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
@@ -38,6 +38,7 @@
                 <div class="p-5">
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Login</h1>
+                    <p style="color: white; margin-bottom: 20px; font-family: Viga;"><em>"Masukan username dan password anda!"</em></p>
                   </div>
                   <form class="user">
                     <div class="form-group">
